@@ -13,10 +13,10 @@ You can create/save, read, mark as ready to-do and delete/delete all the items f
 * To 'Clear' for remove all items from the list, just click on the button.
 
 ## Features connected with Database
-* Add items
-* Mark as done 
-* Delete one item
-* Clear all items
+* Add items;
+* Mark as done; 
+* Delete one item;
+* Clear all items.
 
 ## What techs are being used?
 * React
