@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Rock Salt', 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e2d5de;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  text-align: left;
+  border-bottom: 0.5px solid #e2d5de;
+}
+
+
+.container {
+
+  padding: 50px 70px;
+  display: block;
+  text-align: center;
+}
+
+.title{
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+form {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #222222;
+  width: 50%;
+  border-radius: 17px;
+  padding: 50px 0px;
+}
+
+.bar {
+  display: inline-block;
+  font: inherit;
+  font-size: 20px;
+  border-radius: 4px;
+  outline: none;
+  padding: 4px 10px;
+  margin: 20px 10px;
+  width: 40%;
+  border: 1px solid #e2d5de;
+ }
+
+ .btn{
+  background-color: transparent;
+  padding: 8px 10px;
+  border-radius: 4px;
+ border: 1px solid #e2d5de;
+ }
+ .btn:hover{
+  background-color: #e2d5de;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+ .close{
+  background-color: transparent;
+  color: #222222;
+  border-style: none;
+  border-radius: 50%;
+ }
+ .close:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+
+ .clear{
+  background-color: transparent;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  display: block;
+  margin: 0 auto;
+ }
+
+ .clear:hover{
+  background-color: #ffffff;
+  color: #e2d5de;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.checkbox{
+  
+}
